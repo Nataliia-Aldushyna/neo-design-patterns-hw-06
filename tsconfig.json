@@ -9,7 +9,8 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "types": ["node"],
-    "experimentalDecorators": true
+    // "experimentalDecorators": true
+    // Not required in TypeScript 6.x (new decorators syntax).
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules"]
